@@ -1,4 +1,4 @@
-const DATABASE_URI ="mongodb+srv://Elijane:gui250714@cluster0.6a3tyc2.mongodb.net/banco-de-leite"
+const MONGO_URI = process.env.MONGO_URI
 const mongoose = require('mongoose')
 
 const connect = async() => {
