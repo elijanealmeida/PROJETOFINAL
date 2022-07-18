@@ -2,7 +2,6 @@ require('dotenv-safe').config()
 const express = require('express')
 const cors = require('cors')
 const mongoose = require('./database/mongooseConnect')
-//const segurancasRoutes = require('./routes/segurancaRoutes')
 const doadorasRoutes = require('./routes/doadorasRoutes')
 const receptorasRoutes = require('./routes/receptorasRoutes')
 
