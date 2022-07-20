@@ -1,10 +1,10 @@
 require('dotenv-safe').config()
-const DATABASE_URI = process.env.DATABASE_URI
+const MONGO_URI = process.env.MONGO_URI
 const mongoose = require('mongoose')
 
 const connect = async() => {
    try {
-     await mongoose.connect(DATABASE_URI, {
+     await mongoose.connect(MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
      })
