@@ -1,7 +1,7 @@
 const doadorasModel = require("../src/models/doadorasModel.js")
 describe("GET teste de rota", () => {
     const doadora = new doadorasModel({
-        id: 9,
+        id: "9",
         nome: "Daiane",
         cpf: "05425425685",
         região: "Bahia",

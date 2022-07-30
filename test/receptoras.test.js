@@ -1,7 +1,7 @@
 const receptorasModel = require("../src/models/receptorasModel")
 describe("GET teste de rota", () => {
     const receptora = new receptora({
-        id: 9,
+        id: "9",
         nome: "Roberta",
         cpf: "05425425748",
         região: "Bahia",
